@@ -7,9 +7,43 @@ img {
   height: 100px;
 }
 
+.fruits {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  /* align-items: center; */
+}
+
+.fruits .fruit-1,
+.fruits .fruit-2,
+.fruits .fruit-3,
+.fruits .fruit-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.fruits .fruit-1 .text,
+.fruits .fruit-2 .text,
+.fruits .fruit-3 .text,
+.fruits .fruit-4 .text {
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.fruits .fruit-1 .img,
+.fruits .fruit-2 .img,
+.fruits .fruit-3 .img,
+.fruits .fruit-4 .img {
+  margin-bottom: 8px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
+  text-align: center;
 }
 
 /* do not edit this footer */
