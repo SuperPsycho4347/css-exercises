@@ -30,3 +30,22 @@ ul.dropdown-menu li:hover {
 }
 
 
+/* Solution */
+.visible {
+  transform-origin: top;
+  animation: expandDown 1.5s;
+}
+
+@keyframes expandDown {
+  from {
+    transform: scaleY(0);
+  }
+
+  75% {
+    transform: scaleY(1.05);
+  }
+
+  to {
+    transform: scaleY(1);
+  }
+}
